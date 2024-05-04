@@ -78,17 +78,3 @@ public class Principal {
     }
   }
 }
-
-/*
-    try {
-      String codigoBase = "USD";
-      String codigoDestino = "MXN";
-      double cantidad = 100;
-
-      Moneda moneda = consultaMoneda.buscaMoneda(codigoBase, codigoDestino, cantidad);
-      System.out.println(moneda);
-      System.out.println("Resultado de la conversión de " + cantidad + " " + codigoBase + " a " + codigoDestino + ": " + moneda.conversion_result());
-    } catch(RuntimeException e) {
-      System.out.println(e.getMessage());
-    }
-*/
