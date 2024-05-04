@@ -65,8 +65,13 @@ public class Principal {
 
           Moneda moneda = consultaMoneda.buscaMoneda(divisaOrigen, divisaDestino, cantidad);
 
-          System.out.println("Su resultado es: " + cantidad + " " + divisaOrigen + " son " + moneda.conversion_result() + " " + divisaDestino + "\n");
-          break;
+          if (cantidad != 0 && moneda.conversion_result() == 0) {
+            System.out.println("Ocurrió un error en la conversión. Verifique que los códigos que escribió sean correctos (moneda base: " + divisaOrigen + " - moneda destino: " + divisaDestino + ")");
+            break;
+          } else {
+            System.out.println("Su resultado es: " + cantidad + " " + divisaOrigen + " son " + moneda.conversion_result() + " " + divisaDestino + "\n");
+            break;
+          }
         case 9:
           System.out.println("******************");
           System.out.println("¡Gracias por usar el conversor de monedas! Vuelva pronto :D");
