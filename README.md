@@ -14,6 +14,8 @@
 
 El conversor de monedas es un útil programa para conocer las equivalencias entre diferentes divisas correspondientes a la mayoría de los países del mundo. El usuario puede escribir las monedas de las que desea conocer las conversiones, así como estar seguro que las tasas de conversiones estarán siempre al día.
 
+***
+
 ## 2. Explorando el menú
 
 ### Menú principal
@@ -28,6 +30,8 @@ Aqui se le muestra al usuario una pequeña muestra de las divisas que puede conv
 En esta sección, se le irán haciendo las preguntas correspondientes al usuario para que realice su conversión de manera exitosa. Al final, se le muestra una línea de texto con el resultado final.
 ### Opción 9. Salida
 Si el usuario ya no desea realizar más consultas, puede cerrar el programa con esta opción.
+
+***
 
 ## 3. Créditos
 Este proyecto ha sido realizado por [Jazmin Grajales](https://github.com/JB-Gra) como parte del [Programa ONE](https://www.oracle.com/mx/education/oracle-next-education/) de la coalición Oracle x Alura LATAM. Para las tasas y conversiones, se utilizó la API de [ExchangeRate-API](https://www.exchangerate-api.com/).
